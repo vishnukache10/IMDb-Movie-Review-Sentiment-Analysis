@@ -16,35 +16,35 @@ Target Variable: Sentiment (positive / negative)
 
 **Methodology**
 
-🔹 Text Preprocessing
+***** Text Preprocessing
 
 Tokenized the review text
 Removed stop words to eliminate irrelevant terms
 Applied case normalization for consistency
 Performed stemming to reduce words to their root form
 
-🔹 Feature Engineering
+***** Feature Engineering
 
 Identified significant attributes using RapidMiner’s Select Attributes operator
 Assigned appropriate roles for input and output variables
 
-🔹 Modeling Techniques
+***** Modeling Techniques
 
 Implemented k-Nearest Neighbors (k-NN) with multiple distance metrics (Euclidean, Manhattan)
 Applied Support Vector Machine (SVM) for linear text classification.
 
-🔹 Model Evaluation
+***** Model Evaluation
 
 Performed 3-fold, 20-fold, and 200-fold cross-validation
 Assessed model accuracy and analyzed performance trade-offs.
 
-Insights:
+**Insights:**
 
 Lower k values yield higher sensitivity but increase overfitting risk.
 Higher k values improve stability and generalization.
 Increasing the number of folds enhances reliability but raises computational cost.
 
-💡 Business Impact
+**💡 Business Impact**
 
 Positive reviews can be harnessed to strengthen marketing campaigns.
 Negative reviews help identify areas for storytelling or product improvement.
